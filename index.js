@@ -70,7 +70,6 @@ inquirer
 
     fs.readFile("members.json", function (err, res) {
       members = JSON.parse(res);
-      members.push(data);
       fs.writeFileSync("members.json", JSON.stringify(members), function (err) {
         if (err) throw err;
         console.log("saved");
@@ -83,7 +82,7 @@ inquirer
           case "Manager":
             newMember = new Manager(
               data.name,
-              pop[x],
+              x,
               data.email,
               data.officeNumber,
               data.position
@@ -160,6 +159,7 @@ inquirer
                 </div>`;
             break;
         }
+        members.push(newMember);
         html = card;
       }
       fs.writeFileSync(
