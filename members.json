@@ -1,1 +1,1 @@
-[{"name":"Employee","email":"example@email.com","id":1,"github":"","role":"Engineer"},{"name":"Employee","email":"example@email.com","id":2,"role":"Intern"},{"name":"Employee","email":"example@email.com","id":3,"role":"Intern"},{"name":"Employee","email":"example@email.com","id":2,"github":"","role":"Engineer"},{"name":"Employee","email":"example@email.com","id":3,"role":"Manager"},{"name":"Employee","email":"example@email.com","id":4,"role":"Intern"}]
+[{"name":"Employee","id":0,"email":"example@email.com","school":"d","role":"Intern"}]

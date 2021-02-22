@@ -1,3 +1,17 @@
 .card{
     box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
 }
+
+#container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    justify-content: space-between;
+    
+  }
+
+  #container::after {
+    content: '';
+    width: 100%;
+  }
+  
